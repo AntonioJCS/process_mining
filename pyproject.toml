@@ -1,0 +1,24 @@
+[project]
+name = "process-mining"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Antonio Juan Carvalho Silva",email = "antonioxp.8@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "pm4py (>=2.7.15.3,<3.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+faker = "^37.4.0"
+
